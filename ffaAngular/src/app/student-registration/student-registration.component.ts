@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './student-registration.component.css'
 })
 export class StudentRegistrationComponent {
-
 }
