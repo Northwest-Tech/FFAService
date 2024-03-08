@@ -1,0 +1,33 @@
+<h1>Student Registration</h1>
+<div id="input">
+<div id="names">
+<h2>Student Name</h2>
+<input class="text" type="text" placeholder="Full Name">
+<br><br>
+<input class="text" type="text" placeholder="Full Name">
+<br><br>
+<input class="text" type="text" placeholder="Full Name">
+<br><br>
+<input class="text" type="text" placeholder="Full Name">
+<br><br>
+</div>
+<div id="checkboxes">
+<h2>Events</h2>
+    <label *ngFor="let event of ['Electrical', 'Carpentry', 'Welding', 'Engineering', 'Diesel']">
+        <input class="box"type="checkbox"> {{ event }}
+      </label>
+    <br/><br/>
+    <label *ngFor="let event of ['Electrical', 'Carpentry', 'Welding', 'Engineering', 'Diesel']">
+        <input class="box" type="checkbox"> {{ event }}
+      </label>
+    <br/><br/>
+    <label *ngFor="let event of ['Electrical', 'Carpentry', 'Welding', 'Engineering', 'Diesel']">
+        <input class="box" type="checkbox"> {{ event }}
+      </label>
+    <br/><br/>
+    <label *ngFor="let event of ['Electrical', 'Carpentry', 'Welding', 'Engineering', 'Diesel']">
+        <input class="box" type="checkbox"> {{ event }}
+      </label>
+    <br/><br/>
+</div>
+</div>
